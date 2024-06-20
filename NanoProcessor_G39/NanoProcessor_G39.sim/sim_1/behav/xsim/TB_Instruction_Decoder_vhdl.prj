@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/Decoder_2_to_4.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/Instruction_Decoder.vhd" \
+"../../../../NanoProcessor_G39.srcs/sim_1/imports/new/TB_Instruction_Decoder.vhd" \
+
+# Do not sort compile order
+nosort

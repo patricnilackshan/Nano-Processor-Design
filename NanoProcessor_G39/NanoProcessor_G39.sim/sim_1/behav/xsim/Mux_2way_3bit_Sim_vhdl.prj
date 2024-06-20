@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/Mux_2_to_1.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/Mux_2way_3bit.vhd" \
+"../../../../NanoProcessor_G39.srcs/sim_1/imports/new/Mux_2way_3bit_Sim.vhd" \
+
+# Do not sort compile order
+nosort

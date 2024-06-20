@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Jun 11 11:59:05 2023
+# Process ID: 7036
+# Current directory: D:/NanoProcessor_G39/NanoProcessor_G39.runs/synth_1
+# Command line: vivado.exe -log Nano_Processor.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Nano_Processor.tcl
+# Log file: D:/NanoProcessor_G39/NanoProcessor_G39.runs/synth_1/Nano_Processor.vds
+# Journal file: D:/NanoProcessor_G39/NanoProcessor_G39.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Nano_Processor.tcl -notrace

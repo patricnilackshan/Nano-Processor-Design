@@ -1,0 +1,156 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Jun  6 13:10:12 2023
+# Process ID: 15992
+# Current directory: D:/NanoProcessor_G39 FInal/NanoProcessor_G39
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3312 D:\NanoProcessor_G39 FInal\NanoProcessor_G39\NanoProcessor_G39.xpr
+# Log file: D:/NanoProcessor_G39 FInal/NanoProcessor_G39/vivado.log
+# Journal file: D:/NanoProcessor_G39 FInal/NanoProcessor_G39\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/PATRIC/Desktop/NanoProcessor_G39' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 905.773 ; gain = 149.484
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Tue Jun  6 13:11:33 2023] Launched synth_1...
+Run output will be captured here: D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Tue Jun  6 13:12:24 2023] Launched impl_1...
+Run output will be captured here: D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.runs/impl_1/runme.log
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Nano_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Nano_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sources_1/imports/new/AdderSubtractor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AdderSubtractor
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sources_1/imports/new/Adder_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_3
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sources_1/imports/new/D_FF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity D_FF
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sources_1/imports/new/D_FF_EN.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity D_FF_EN
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sources_1/imports/new/Decoder_2_to_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_2_to_4
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sources_1/imports/new/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sources_1/imports/new/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sources_1/imports/new/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sources_1/imports/new/Instruction_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sources_1/imports/new/Mux_2_to_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_to_1
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sources_1/imports/new/Mux_2way_3bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2way_3bit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sources_1/imports/new/Mux_2way_4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2way_4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sources_1/imports/new/Mux_8_to_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_8_to_1
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sources_1/imports/new/Mux_8way_4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_8way_4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sources_1/new/Nano_Processor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Nano_Processor
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sources_1/imports/new/PC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PC
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sources_1/imports/new/ProgramROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramROM
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sources_1/imports/new/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sources_1/imports/new/Reg_bank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg_bank
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sources_1/imports/new/Seven_Segment.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Seven_Segment
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sources_1/imports/new/Slow_Clock.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Slow_Clock
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sim_1/new/Nano_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Nano_TB
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto d49169d4a42249bbaab7b3893c056219 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Nano_TB_behav xil_defaultlib.Nano_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clock [slow_clock_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.PC [pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Adder_3 [adder_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2way_3bit [mux_2way_3bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.ProgramROM [programrom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF_EN [d_ff_en_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_bank [reg_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8way_4bit [mux_8way_4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2way_4bit [mux_2way_4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.AdderSubtractor [addersubtractor_default]
+Compiling architecture behavioral of entity xil_defaultlib.Seven_Segment [seven_segment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Nano_Processor [nano_processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.nano_tb
+Built simulation snapshot Nano_TB_behav
+
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/NanoProcessor_G39 -notrace
+couldn't read file "D:/NanoProcessor_G39": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Tue Jun  6 13:13:44 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Nano_TB_behav -key {Behavioral:sim_1:Functional:Nano_TB} -tclbatch {Nano_TB.tcl} -view {{D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sim_1/imports/Nano_Processor2/Nano_TB_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+open_wave_config {D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sim_1/imports/Nano_Processor2/Nano_TB_behav.wcfg}
+source Nano_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Nano_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 953.016 ; gain = 18.082
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jun  6 13:29:40 2023...

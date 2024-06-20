@@ -1,0 +1,27 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/AdderSubtractor.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/Adder_3.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/D_FF.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/D_FF_EN.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/Decoder_2_to_4.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/Decoder_3_to_8.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/FA.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/HA.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/Instruction_Decoder.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/Mux_2_to_1.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/Mux_2way_3bit.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/Mux_2way_4bit.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/Mux_8_to_1.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/Mux_8way_4bit.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/new/Nano_Processor.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/PC.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/ProgramROM.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/Reg.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/Reg_bank.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/Seven_Segment.vhd" \
+"../../../../NanoProcessor_G39.srcs/sources_1/imports/new/Slow_Clock.vhd" \
+"../../../../NanoProcessor_G39.srcs/sim_1/new/Nano_TB.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Jun  6 13:10:12 2023
+# Process ID: 15992
+# Current directory: D:/NanoProcessor_G39 FInal/NanoProcessor_G39
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3312 D:\NanoProcessor_G39 FInal\NanoProcessor_G39\NanoProcessor_G39.xpr
+# Log file: D:/NanoProcessor_G39 FInal/NanoProcessor_G39/vivado.log
+# Journal file: D:/NanoProcessor_G39 FInal/NanoProcessor_G39\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_simulation
+open_wave_config {D:/NanoProcessor_G39 FInal/NanoProcessor_G39/NanoProcessor_G39.srcs/sim_1/imports/Nano_Processor2/Nano_TB_behav.wcfg}
+source Nano_TB.tcl
+close_sim

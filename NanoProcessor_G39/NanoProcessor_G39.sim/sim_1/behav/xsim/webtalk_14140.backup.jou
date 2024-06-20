@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Jun  8 15:52:13 2023
+# Process ID: 14140
+# Current directory: C:/Users/PATRIC/Desktop/NanoProcessor_G39/NanoProcessor_G39/NanoProcessor_G39.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/PATRIC/Desktop/NanoProcessor_G39/NanoProcessor_G39/NanoProcessor_G39.sim/sim_1/behav/xsim/xsim.dir/Adder_3_Sim_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/PATRIC/Desktop/NanoProcessor_G39/NanoProcessor_G39/NanoProcessor_G39.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/PATRIC/Desktop/NanoProcessor_G39/NanoProcessor_G39/NanoProcessor_G39.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/PATRIC/Desktop/NanoProcessor_G39/NanoProcessor_G39/NanoProcessor_G39.sim/sim_1/behav/xsim/xsim.dir/Adder_3_Sim_behav/webtalk/xsim_webtalk.tcl -notrace

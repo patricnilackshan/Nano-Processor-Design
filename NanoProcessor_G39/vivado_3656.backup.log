@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Jun  5 00:57:18 2023
+# Process ID: 3656
+# Current directory: C:/Users/PATRIC/Desktop/NanoProcessor_G39
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11408 C:\Users\PATRIC\Desktop\NanoProcessor_G39\NanoProcessor_G39.xpr
+# Log file: C:/Users/PATRIC/Desktop/NanoProcessor_G39/vivado.log
+# Journal file: C:/Users/PATRIC/Desktop/NanoProcessor_G39\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/PATRIC/Desktop/NanoProcessor_G39/NanoProcessor_G39.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 870.086 ; gain = 132.758
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jun  5 20:29:56 2023...
