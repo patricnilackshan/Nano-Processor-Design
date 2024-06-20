@@ -13,5 +13,5 @@ Nano Processor capable of executing simple set of instructions: 4-bit Add/Subtra
 <br>
 
 ---
-## Import the `NanoProcessor_G39` in Vivadoa and Run the Simulations
+## Import the `NanoProcessor_G39` folder in Vivado and Run the Simulations
 ---
