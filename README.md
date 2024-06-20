@@ -9,6 +9,8 @@ Nano Processor capable of executing simple set of instructions: 4-bit Add/Subtra
 | NEG R | 2’s complement of registers R, i.e., R ← −R <br>R ∈ [0, 7] | 0 1 R R R 0 0 0 0 0 0 0 |
 | JZR R, d | Jump if value in register R is 0, i.e., <br>If R == 0 <br>PC ← d; <br>Else <br>PC ← PC + 1; <br>R ∈ [0, 7], d ∈ [0, 7] | 1 1 R R R 0 0 0 0 d d d |
 
+<br>
+<br>
 
 ---
 ## Import this folder in Vivadoa and Run the Simulations
