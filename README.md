@@ -15,3 +15,5 @@ Nano Processor capable of executing simple set of instructions: 4-bit Add/Subtra
 ---
 ## Import the `NanoProcessor_G39` folder in Vivado and Run the Simulations or Test it on **BASYS3**.
 ---
+
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=patricnilackshan.Nano-Processor-Design" />
